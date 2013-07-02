@@ -1,0 +1,9 @@
+URxvt*.transparent: true
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*.shading: 42
+URxvt.scrollBar:	false
+URxvt*font:	        xft:GohuFont:style=Regular:antialias=false
+URxvt.foreground:	rgba:eeee/eeee/eeee/dddd
+URxvt.perl-ext-common:  ...,clipboard
+URxvt.keysym.M-c	perl:clipboard:copy
+URxvt.keysym.M-v	perl:clipboard:paste
