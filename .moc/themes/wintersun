@@ -1,12 +1,4 @@
-# moc theme similar to vim's dante theme
-# by jwc < http://jwcxz.com >
-#
-# this is a moc theme that tries to look
-# like the dante.vim colorscheme
-#
-# note that this will probably look very
-# ugly unless you have cyan set to a
-# *dark color* ...
+# default refers to #171717, so with other terminal's color could appear ugly
 
 background				= default	default
 frame					= default		default
