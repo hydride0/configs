@@ -1,3 +1,3 @@
-xbacklight -set 0 &
-xrdb -merge .Xresources &
-exec spectrwm &
+xbacklight -set
+xrdb -merge .Xresources
+exec spectrwm
