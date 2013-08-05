@@ -13,7 +13,7 @@ while :; do
         MUSED=$(( $MTOT - $MFREE ))
         MUSEDPT=$(( ($MUSED * 100) / $MTOT ))
         MEM_STR="Mem : ${MUSEDPT}%"
-        echo -e "        [  $DATE_STR  ]                   [  $POWER_STR  ]                  [  $TEMP_STR  ]                   [  $CPUFREQ_STR ]                   [  $MEM_STR  ]"
+        echo -e "\t[  $DATE_STR  ]\t\t[  $POWER_STR  ]\t\t[  $TEMP_STR  ]\t\t[  $CPUFREQ_STR ]\t\t[  $MEM_STR  ]"
         
 sleep $SLEEP_SEC
 done
