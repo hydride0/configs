@@ -1,5 +1,5 @@
 # My configs
-** Various configurations for various applications **
+**Various configurations for various applications**
 Read this:
 - File and directories could need rename
 - Nothing else, I guess
