@@ -11,6 +11,8 @@ alias y='yaourt -Syua'
 alias yr='yaourt -Rs'
 alias yi='yaourt -S'
 alias merge='git merge'
+alias add='git add'
+alias pull='git pull'
 
 commit() {
 	git commit -m "$1"
