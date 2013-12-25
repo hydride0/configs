@@ -3,16 +3,16 @@ new_window 1pixel
 
 bar {
 	status_command i3status
-    font pango:Gohufont 7
+	font pango:Gohufont 7
     
 	colors {
-    	background #0F0901
-    	statusline #999999
-    	separator #dddddd
-		focused_workspace  #0F0901 #0F0901 #D6CCA3
-      	active_workspace   #0F0901 #0F0901 #D6CCA3
+		background #0F0901
+		statusline #999999
+		separator #dddddd
+    	focused_workspace  #0F0901 #0F0901 #D6CCA3
+		active_workspace   #0F0901 #0F0901 #D6CCA3
 		urgent_workspace   #0F0901 #0F0901 #ED052F
-      	inactive_workspace #0F0901 #0F0901 #666666
+		inactive_workspace #0F0901 #0F0901 #666666
     }
 }
 
