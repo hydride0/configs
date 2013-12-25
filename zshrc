@@ -25,5 +25,5 @@ fetch() {
 }
 
 sprunge() {
-	    cat $1 | curl -F 'sprunge=<-' http://sprunge.us
+	cat $1 | curl -F 'sprunge=<-' http://sprunge.us
 }
