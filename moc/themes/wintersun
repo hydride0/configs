@@ -18,7 +18,7 @@ marked_selected_file  = cyan    black     bold
 info                  = cyan    default
 selected_info         = cyan    default   bold
 marked_info           = cyan    default
-marked_selected_info  = cyan    default	  bold
+marked_selected_info  = cyan    default   bold
 
 title                 = white   default   bold
 state                 = blue    black     bold
