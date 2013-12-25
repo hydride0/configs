@@ -28,10 +28,10 @@ time_left             = blue    default   bold
 total_time            = cyan    default   bold
 time_total_frames     = blue    default
  
-sound_parameters      = cyan		default		bold
-legend                = blue		default
-disabled              = black		default		bold
-enabled               = white		default
+sound_parameters      = cyan    default   bold
+legend                = blue    default
+disabled              = black   default   bold
+enabled               = white   default
 
 empty_mixer_bar       = white   default
 filled_mixer_bar      = black   white
@@ -39,10 +39,10 @@ filled_mixer_bar      = black   white
 empty_time_bar        = white   default
 filled_time_bar       = black   white
 
-entry				        	= cyan    default   bold
-entry_title	 	    		= cyan    default
+entry                 = cyan    default   bold
+entry_title           = cyan    default
 
-status				      	= white   default
-error			        		= red     default   bold
-message			      		= cyan    default   bold
-plist_time		    		= blue    default
+status                = white   default
+error                 = red     default   bold
+message               = cyan    default   bold
+plist_time            = blue    default
