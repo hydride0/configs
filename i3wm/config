@@ -9,7 +9,7 @@ bar {
 		background #0F0901
 		statusline #999999
 		separator #dddddd
-    	focused_workspace  #0F0901 #0F0901 #D6CCA3
+		focused_workspace  #0F0901 #0F0901 #D6CCA3
 		active_workspace   #0F0901 #0F0901 #D6CCA3
 		urgent_workspace   #0F0901 #0F0901 #ED052F
 		inactive_workspace #0F0901 #0F0901 #666666
