@@ -29,3 +29,6 @@ fetch() {
 sprunge() {
 	cat $1 | curl -F 'sprunge=<-' http://sprunge.us
 }
+opus() {
+	ffmpeg -i $1 -c:a libopus -b:a 150k "`echo $1 | sed 's/.\{5\}$//'`.opus"
+}
