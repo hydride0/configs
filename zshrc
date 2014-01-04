@@ -29,6 +29,7 @@ fetch() {
 sprunge() {
 	cat $1 | curl -F 'sprunge=<-' http://sprunge.us
 }
-opus() {
-	ffmpeg -i $1 -c:a libopus -b:a 150k "`echo $1 | sed 's/.\{5\}$//'`.opus"
+split() { # Split a flac in several flacs by giving the proper .cue, then it fixes flacs' metadatas and finally it cleans directory 
+	cuebreakpoints $1 | shnsplit -o flac "`echo $1 | sed 's/.\{4\}$//'`"
+	rm "`echo $1 | sed 's/.\{4\}$//'`" && cuetag.sh $1 *.flac && rm *.cue
 }
