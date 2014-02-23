@@ -1,14 +1,10 @@
-! URxvt*.transparent: true
-URxvt*.shading:         20
-URxvt.scrollBar:        false
-URxvt.foreground:       [95]#D6CCA3
+URxvt*.shading:		20
+URxvt.scrollBar:	false
+URxvt.foreground:	[95]#ffffff
 rxvt*modifier:          alt
-URxvt*font:             xft:Gohufont:size=7
-Xft*dpi:                96
-Xft*antialias:          True
-Xft*hinting:            Full
+URxvt*font:             -*-gohufont-medium-*-*-*-*-*-*-*-*-*-iso10646-*
 URxvt.depth:            32
-URxvt.background:       [100]#0F0901
+URxvt.background:       [100]#000000
 URxvt.perl-ext-common:  default,matcher
-URxvt.url-launcher:     /usr/bin/firefox
+URxvt.url-launcher:     /usr/bin/firefox 
 URxvt.matcher.button:   1
