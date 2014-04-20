@@ -1,24 +1,19 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="fox"
+ZSH_THEME="wintersun"
 plugins=(vi-mode)
-
 source $ZSH/oh-my-zsh.sh
+export PATH="$PATH:/home/hyd/.rvm/gems/ruby-2.1.1/bin:/home/hyd/.rvm/gems/ruby-2.1.1/bin:/home/hyd/.rvm/rubies/ruby-2.1.1/bin:/home/hyd/.rvm/bin:/usr/bin/core_perl:/home/hyd/.rvm/bin:/home/hyd/bin:/home/hyd/.local/bin:/home/hyd/.local/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin"
 
-
-export PATH="/home/hyd/bin:/home/hyd/.local/bin:/home/hyd/.local/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/hyd/.rvm/gems/ruby-2.0.0-p353/bin:/home/hyd/.rvm/gems/ruby-2.0.0-p353@global/bin:/home/hyd/.rvm/rubies/ruby-2.0.0-p353/bin:/home/hyd/.rvm/bin:/usr/bin/core_perl:/home/hyd/.rvm/bin"
-
-alias s='sudo shutdown now'
+alias shut='sudo shutdown now'
 alias rb='sudo reboot'
 alias ls='ls --color=auto'
 alias rm='rm'
 alias push='git push'
 alias y='yaourt -Syua'
-alias yr='yaourt -Rs'
-alias yi='yaourt -S'
 alias merge='git merge'
 alias add='git add'
 alias pull='git pull'
-alias vim='~/Git/neovim/build/src/vim'
+alias alsamixer='alsamixer -g'
 
 commit() {
 	git commit -m "$1"
@@ -32,8 +27,8 @@ fetch() {
 	git fetch "https://github.com/$1.git"
 }
 
-sprunge() {
-	cat $1 | curl -F 'sprunge=<-' http://sprunge.us
+text() {
+	curl -F "text=@$1" pasteling.giovannicapuano.net/api/new
 }
 
 img() {
@@ -45,4 +40,12 @@ split() {
 	rm "`echo $1 | sed 's/.\{4\}$//'`" && cuetag.sh $1 *.flac && rm *.cue
 }
 
+twitch() {
+	livestreamer $1 high --player mpv &
+}
 
+connect() {
+    sudo iw dev wlp3s0 connect $1 key 0:$2
+}
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
