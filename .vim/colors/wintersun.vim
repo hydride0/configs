@@ -12,8 +12,8 @@ set t_Co=256
 
 " General colors
 hi Normal        cterm=none      ctermfg=251       ctermbg=none
-hi Directory     cterm=none      ctermfg=cyan       ctermbg=none
-hi ErrorMsg      cterm=none      ctermfg=cyan   ctermbg=none
+hi Directory     cterm=none      ctermfg=cyan      ctermbg=none
+hi ErrorMsg      cterm=none      ctermfg=cyan      ctermbg=none
 hi NonText       cterm=none      ctermfg=darkgray  ctermbg=none
 hi SpecialKey    cterm=none      ctermfg=236       ctermbg=none
 hi LineNr        cterm=none      ctermfg=darkgrey  ctermbg=none
@@ -23,7 +23,7 @@ hi Visual        cterm=none      ctermfg=white     ctermbg=cyan
 hi VisualNOS     cterm=none      ctermfg=white     ctermbg=cyan
 hi MoreMsg       cterm=bold      ctermfg=white     ctermbg=none
 hi Question      cterm=bold      ctermfg=white     ctermbg=none
-hi WarningMsg    cterm=none      ctermfg=cyan   ctermbg=none
+hi WarningMsg    cterm=none      ctermfg=cyan      ctermbg=none
 hi WildMenu      cterm=none      ctermfg=white     ctermbg=none
 hi TabLine       cterm=underline ctermfg=white     ctermbg=none
 hi TabLineSel    cterm=underline ctermfg=white     ctermbg=cyan
@@ -32,8 +32,8 @@ hi DiffAdd       cterm=none      ctermfg=white     ctermbg=darkgreen
 hi DiffChange    cterm=underline ctermfg=none      ctermbg=none
 hi DiffDelete    cterm=none      ctermfg=white     ctermbg=cyan
 hi DiffText      cterm=none      ctermfg=white     ctermbg=none
-hi SignColumn    cterm=none      ctermfg=cyan   ctermbg=none
-hi VertSplit     cterm=none      ctermfg=cyan   ctermbg=none
+hi SignColumn    cterm=none      ctermfg=cyan      ctermbg=none
+hi VertSplit     cterm=none      ctermfg=cyan      ctermbg=none
 hi CursorColumn  cterm=none      ctermfg=none      ctermbg=233
 hi CursorLineNr  cterm=none      ctermfg=none      ctermbg=233
 hi CursorLine    cterm=none      ctermfg=none      ctermbg=233
@@ -43,26 +43,26 @@ hi Title         cterm=bold      ctermfg=white     ctermbg=none
 hi Pmenu         cterm=none      ctermfg=none      ctermbg=233
 hi PmenuSel      cterm=bold      ctermfg=white     ctermbg=cyan
 hi PmenuSbar     cterm=none      ctermfg=233       ctermbg=233
-hi PmenuThumb    cterm=none      ctermfg=cyan   ctermbg=cyan
-hi Folded        cterm=none      ctermfg=cyan   ctermbg=none
-hi FoldColumn    cterm=none      ctermfg=cyan   ctermbg=none
+hi PmenuThumb    cterm=none      ctermfg=cyan      ctermbg=cyan
+hi Folded        cterm=none      ctermfg=cyan      ctermbg=none
+hi FoldColumn    cterm=none      ctermfg=cyan      ctermbg=none
 hi MatchParen    cterm=reverse   ctermfg=none      ctermbg=none
 
 " syntax
-hi Comment     cterm=none ctermfg=darkgrey ctermbg=none
-hi PreProc     cterm=none ctermfg=white    ctermbg=none
-hi Constant    cterm=none ctermfg=cyan  ctermbg=none
+hi Comment     cterm=none ctermfg=darkgrey  ctermbg=none
+hi PreProc     cterm=none ctermfg=white     ctermbg=none
+hi Constant    cterm=none ctermfg=cyan      ctermbg=none
 hi Type        cterm=none ctermfg=blue      ctermbg=none
-hi Statement   cterm=bold ctermfg=white    ctermbg=none
+hi Statement   cterm=bold ctermfg=white     ctermbg=none
 hi Identifier  cterm=none ctermfg=blue      ctermbg=none
-hi Ignore      cterm=none ctermfg=darkgray ctermbg=none
-hi Special     cterm=none ctermfg=cyan  ctermbg=none
-hi Error       cterm=none ctermfg=white    ctermbg=cyan
-hi Todo        cterm=none ctermfg=white    ctermbg=cyan
-hi Underlined  cterm=none ctermfg=cyan  ctermbg=none
-hi Number      cterm=none ctermfg=cyan  ctermbg=none
-hi Function    cterm=none ctermfg=white    ctermbg=none
-hi Define      cterm=bold ctermfg=white    ctermbg=none
+hi Ignore      cterm=none ctermfg=darkgray  ctermbg=none
+hi Special     cterm=none ctermfg=cyan      ctermbg=none
+hi Error       cterm=none ctermfg=white     ctermbg=cyan
+hi Todo        cterm=none ctermfg=white     ctermbg=cyan
+hi Underlined  cterm=none ctermfg=cyan      ctermbg=none
+hi Number      cterm=none ctermfg=cyan      ctermbg=none
+hi Function    cterm=none ctermfg=white     ctermbg=none
+hi Define      cterm=bold ctermfg=white     ctermbg=none
 
 hi link String          Constant
 hi link Character       Constant
