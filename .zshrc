@@ -45,7 +45,7 @@ twitch() {
 }
 
 connect() {
-    sudo iw dev wlp3s0 connect $1 key 0:$2
+	sudo iw dev wlp3s0 connect $1 key 0:$2
 }
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
