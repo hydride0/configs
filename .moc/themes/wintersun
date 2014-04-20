@@ -1,0 +1,49 @@
+# Wintersun theme
+
+background            = default  default
+frame                 = black    default
+window_title          = white    default
+
+directory             = default  default
+selected_directory    = cyan     black    bold
+
+playlist              = cyan     default
+selected_playlist     = cyan     black    bold
+
+file                  = default  default
+selected_file         = default  black    bold
+
+marked_file           = cyan     default  bold
+marked_selected_file  = cyan     black    bold
+
+info                  = cyan     default
+selected_info         = cyan     default  bold
+marked_info           = cyan     default
+marked_selected_info  = cyan     default  bold
+
+title                 = default  default  bold
+state                 = blue     black    bold
+
+current_time          = blue     default  bold
+time_left             = blue     default  bold
+total_time            = cyan     default  bold
+time_total_frames     = blue     default
+
+sound_parameters      = cyan     default  bold
+legend                = blue     default
+disabled              = black    default  bold
+enabled               = default  default
+
+empty_mixer_bar       = default  default
+filled_mixer_bar      = black    white
+
+empty_time_bar        = default  default
+filled_time_bar       = black    white
+
+entry                 = cyan     default  bold
+entry_title           = cyan     default
+
+status                = default	 default
+error                 = red      default  bold
+message               = cyan     default  bold
+plist_time            = blue     default

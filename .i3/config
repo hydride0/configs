@@ -1,0 +1,70 @@
+hide_edge_borders both
+new_window 1pixel
+
+bar {
+		status_command i3status
+    font pango:Gohufont 7
+    
+		colors {
+    	background #000000
+      statusline #999999
+      separator #dddddd
+			focused_workspace  #000000 #000000 #D6CCA3
+      active_workspace   #000000 #000000 #D6CCA3
+			urgent_workspace   #000000 #000000 #ED052F
+      inactive_workspace #000000 #000000 #666666
+    }
+}
+
+
+#{{{ SHORTCUTS
+bindsym Mod4+f exec firefox
+bindsym Mod4+a exec rxvt -e mocp
+bindsym Mod4+s exec rxvt
+bindsym Mod4+q exec rxvt -e rtorrent
+bindsym Mod4+i exec rxvt -e weechat-curses
+bindsym Mod4+p exec dmenu_run
+bindsym Mod4+Left exec amixer set Master 2+
+bindsym Mod4+Right exec amixer set Master 2-
+bindsym F12 exec scrot
+bindsym F9 exec setxkbmap us
+bindsym F10 exec setxkbmap it
+bindsym Mod4+space exec mocp -G
+#}}}
+
+#{{{ WINDOW MANAGEMENT AND OTHER THINGS
+floating_modifier Mod4
+bindsym Mod4+w kill
+bindsym Mod4+Shift+j move left
+bindsym Mod4+Shift+k move down
+bindsym Mod4+Shift+l move up
+bindsym Mod4+Shift+semicolon move right
+bindsym Mod4+j focus left
+bindsym Mod4+k focus down
+bindsym Mod4+l focus up
+bindsym Mod4+semicolon focus right
+bindsym Mod4+Shift+Left move left
+bindsym Mod4+Shift+Down move down
+bindsym Mod4+Shift+Up move up
+bindsym Mod4+Shift+Right move right
+bindsym Mod4+h split h
+bindsym Mod4+v split v
+bindsym Mod4+z fullscreen
+bindsym Mod4+c layout stacking
+bindsym Mod4+m layout tabbed
+bindsym Mod4+b layout toggle split
+bindsym Mod4+Shift+space floating toggle
+bindsym Mod4+o focus parent
+#}}}
+
+#{{{ WORKSPACES
+bindsym Mod4+1 workspace α
+bindsym Mod4+2 workspace β
+bindsym Mod4+3 workspace γ
+bindsym Mod4+4 workspace δ
+bindsym Mod4+5 workspace ε
+#}}}
+
+bindsym Mod4+Shift+c reload
+bindsym Mod4+Shift+r restart
+

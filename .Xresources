@@ -1,0 +1,10 @@
+URxvt*.shading:		20
+URxvt.scrollBar:	false
+URxvt.foreground:	[95]#ffffff
+rxvt*modifier:          alt
+URxvt*font:             -*-gohufont-medium-*-*-*-*-*-*-*-*-*-iso10646-*
+URxvt.depth:            32
+URxvt.background:       [100]#000000
+URxvt.perl-ext-common:  default,matcher
+URxvt.url-launcher:     /usr/bin/firefox 
+URxvt.matcher.button:   1
