@@ -3,11 +3,11 @@ new_window 1pixel
 
 bar {
 	status_command i3status
-	font pango:Gohufont 7
+	font pango:Monaco 7
 	colors {
-		background #000000
-		statusline #999999
-		separator #dddddd
+		background         #000000
+		statusline         #999999
+		separator          #dddddd
 		focused_workspace  #000000 #000000 #D6CCA3
 		active_workspace   #000000 #000000 #D6CCA3
 		urgent_workspace   #000000 #000000 #ED052F
@@ -18,9 +18,9 @@ bar {
 
 #{{{ SHORTCUTS
 bindsym Mod4+f exec firefox
-bindsym Mod4+a exec rxvt -e mocp
-bindsym Mod4+s exec rxvt
-bindsym Mod4+q exec rxvt -e rtorrent
+bindsym Mod4+a exec st -e mocp
+bindsym Mod4+s exec st
+bindsym Mod4+q exec st -e rtorrent
 bindsym Mod4+i exec rxvt -e weechat-curses
 bindsym Mod4+p exec dmenu_run
 bindsym Mod4+Left exec amixer set Master 2+
@@ -66,4 +66,3 @@ bindsym Mod4+5 workspace ε
 
 bindsym Mod4+Shift+c reload
 bindsym Mod4+Shift+r restart
-
