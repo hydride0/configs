@@ -2,18 +2,17 @@ hide_edge_borders both
 new_window 1pixel
 
 bar {
-		status_command i3status
-    font pango:Gohufont 7
-    
-		colors {
-    	background #000000
-      statusline #999999
-      separator #dddddd
-			focused_workspace  #000000 #000000 #D6CCA3
-      active_workspace   #000000 #000000 #D6CCA3
-			urgent_workspace   #000000 #000000 #ED052F
-      inactive_workspace #000000 #000000 #666666
-    }
+	status_command i3status
+	font pango:Gohufont 7
+	colors {
+		background #000000
+		statusline #999999
+		separator #dddddd
+		focused_workspace  #000000 #000000 #D6CCA3
+		active_workspace   #000000 #000000 #D6CCA3
+		urgent_workspace   #000000 #000000 #ED052F
+		inactive_workspace #000000 #000000 #666666
+  }
 }
 
 
