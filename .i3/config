@@ -12,7 +12,7 @@ bar {
 		active_workspace   #000000 #000000 #D6CCA3
 		urgent_workspace   #000000 #000000 #ED052F
 		inactive_workspace #000000 #000000 #666666
-  }
+	}
 }
 
 
